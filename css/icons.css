@@ -1,0 +1,84 @@
+.icon-circle{
+  margin-top: 416px;
+  margin-left: 924px;
+  position: absolute;
+}
+.icon-arrow{
+  margin-top: 435px;
+  margin-left:  952px;
+  position: absolute;
+}
+.icon-computer{
+  margin-left: 475px;
+  margin-top: 812px;
+  position: absolute;
+}
+.icon-bottle{
+  margin-left: 780px;
+  margin-top: 812px;
+  position: absolute;
+}
+.icon-settings{
+  margin-left: 1075px;
+  margin-top: 812px;
+  position: absolute;
+}
+.icon-rupor{
+  margin-left: 1377px;
+  margin-top: 812px;
+  position: absolute;
+}
+.icon-horizontal-arrow{
+  position: absolute;
+  margin-top: 1264px;
+}
+.icon-horizontal-arrow__left{
+  position: absolute;
+   margin-left: 937px;
+}
+.icon-horizontal-arrow__right{
+  position: absolute;
+  margin-left: 966px;
+}
+.icon-letter{
+  position: absolute;
+  margin-top: 2171px;
+  margin-left: 375px;
+}
+.icon-twitter{
+  width: 58px;
+  height: 48px;
+  position: absolute;
+  margin-top: 2198px;
+  margin-left: 1007px;
+}
+.icon-circle-logo{
+  margin-top: 2356px;
+  position: absolute;
+}
+.icon-circle-logo__facebook{
+  position: absolute;
+  margin-left: 377px;
+}
+.icon-circle-logo__google{
+  margin-left: 778px;
+}
+.icon-circle-logo__in{
+  margin-left: 1200px;
+}
+.icon-social{
+  position: absolute;
+  margin-top: 2376px;
+}
+.icon-social__facebook{
+  position: absolute;
+  margin-left: 405px;
+}
+.icon-social__google{
+  position: absolute;
+  margin-left: 801px;
+}
+.icon-social__in{
+  position: absolute;
+  margin-left: 1220px;
+}

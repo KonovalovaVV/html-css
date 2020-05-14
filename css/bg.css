@@ -1,0 +1,29 @@
+.bg-mountain{
+    width: 1920px;
+    height: 520px;
+    margin-top: 90px;
+    position: absolute;
+  }
+  .bg-light-grey{
+    width: 1922px;
+    height: 375px;
+    margin-top: 750px;
+    position: absolute;
+  }
+  .bg-orange{
+    position: absolute;
+    margin-top: 1326px;
+    margin-left: 375px;
+  }
+  .bg-grey{
+    margin-top: 1987px;
+  }
+  .bg-twitter{
+    position: absolute;
+    margin-top: 2171px;
+    margin-left: 977px;
+  }
+  .bg-white{
+    position: absolute;
+    margin-top: 2324px;
+  } 

@@ -1,0 +1,115 @@
+*{
+  position: absolute;
+}
+.twittertextstyle{
+  width: 429px;
+  height: 58px;
+  color: #b5c7c9;
+  font-family: 'Source Sans Pro', arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.johndoe{
+  color: #ffffff;
+  text-decoration: underline;
+}
+.twittertext{
+  position: absolute;
+  margin-top: -380px;
+  margin-left: 1085px;
+}
+.whitebg{
+  position: absolute;
+  margin-top: -250px;
+} 
+.facebookcircle{
+  position: absolute;
+  margin-left: 377px;
+  margin-top: -220px;
+}
+.googlecircle{
+  position: absolute;
+  margin-left: 778px;
+  margin-top: -220px;
+}
+.incircle{
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: -220px;
+}
+.followtextstyle{
+  width: 176px;
+  height: 13px;
+  color: #637f83;
+  font-family: 'Source Sans Pro', arial;
+  font-size: 18px;
+  font-weight: 700;
+}
+.followfb{
+  position: absolute;
+  margin-left: 467px;
+  margin-top: -200px;
+}
+.followgoogle{
+  position: absolute;
+  margin-left: 868px;
+  margin-top: -200px;
+}
+.followin{
+  position: absolute;
+  margin-left: 1290px;
+  margin-top: -200px;
+}
+.ficon{
+  position: absolute;
+  margin-left: 405px;
+  margin-top: -200px;
+}
+.gicon{
+  position: absolute;
+  margin-left: 801px;
+  margin-top: -200px;
+}
+.inicon{
+  position: absolute;
+  margin-left: 1220px;
+  margin-top: -200px;
+}
+.socialtextstyle{
+  width: 139px;
+  height: 10px;
+  color: #b5c7c9;
+  font-family: 'Source Sans Pro', arial;
+  font-size: 14px;
+  font-weight: 400;
+}
+.fbtext{
+  position: absolute;
+  margin-left: 467px;
+  margin-top: -178px;
+}
+.gtext{
+  position: absolute;
+  margin-left: 868px;
+  margin-top: -178px;
+}
+.intext{
+  position: absolute;
+  margin-left: 1290px;
+  margin-top: -178px;
+}
+.designstyle{
+  width: 779px;
+  height: 13px;
+  color: #ffffff;
+  font-family: 'Source Sans Pro', arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.design{
+  position: absolute;
+  margin-left: 571px;
+  margin-top: -64px;
+}

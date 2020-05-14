@@ -1,0 +1,62 @@
+.button-text{
+    margin-top: 1044px;
+    position: absolute;
+    width: 36px;
+    height: 10px;
+    color: #ffffff;
+    font-family: 'Source Sans Pro Black', arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .button-text__computer{
+    margin-left: 495px;
+  }
+  .button-text__bottle{
+    margin-left: 797px;
+  }
+  .button-text__settings{
+    margin-left: 1094px;
+  }
+  .button-text__rupor{
+    margin-left: 1396px;
+  }
+  
+  .button-more{
+    margin-top: 1032px;
+    position: absolute;
+  }
+  .button-more__computer{
+    margin-left: 465px;
+  }
+  .button-more__bottle{
+    margin-left: 767px;
+  }
+  .button-more__settings{
+    margin-left: 1067px;
+  }
+  .button-more__rupor{
+    margin-left: 1365px;
+  }
+
+  .button-orange{
+    margin-left: 884px;
+    margin-top: 1536px;
+    position: absolute;
+  }
+  .button-orange-text{
+    margin-left: 900px;
+    margin-top: 1549px;
+    width: 119px;
+    height: 13px;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', arial;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.36px;
+  }
+  .button-sugnup{
+    position: absolute;
+    margin-top: 2234px;
+    margin-left: 845px;
+  }

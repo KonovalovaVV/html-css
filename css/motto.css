@@ -1,0 +1,108 @@
+.motto{
+  position: absolute;
+  font-family: 'PT Sans', arial;
+  width: 483px;
+  height: 88px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 3.2px;
+}
+.motto__up{
+  position: absolute;
+  margin-left: 783px;
+  margin-top: 215px;
+  text-decoration: underline;
+}
+.motto__down{
+  position: absolute;
+  margin-left: 716px;
+  margin-top: 268px;
+  text-decoration: underline;
+}
+
+.motto-slim{
+  position: absolute;
+  width: 303px;
+  height: 37px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+}
+.motto-slim__up{
+  position: absolute;
+  margin-left: 806px;
+  margin-top: 337px;
+}
+.motto-slim__down{
+  position: absolute;
+  margin-left: 872px;
+  margin-top: 362px;
+}
+
+.motto-grey{
+  position: absolute;
+  width: 688px;
+  height: 58px;
+  color: #637f83;
+}
+.motto-grey__up{
+  font-family: 'Source Sans Pro', arial;
+  font-weight: 700;
+  font-size: 34px;
+  position: absolute;
+  margin-top: 652px;
+  margin-left: 760px;
+}
+.motto-grey__down{
+  font-family: 'Source Sans Pro Light', arial;
+  font-weight: 300;
+  font-size: 24px;
+  position: absolute;
+  margin-top: 689px;
+  margin-left: 617px;
+}
+.motto-grey__up-cras{
+  font-family: 'Source Sans Pro', arial;
+  font-weight: 700;
+  font-size: 34px;
+  position: absolute;
+  margin-top: 1181px;
+  margin-left: 760px;
+}
+.motto-grey__down-cras{
+  font-family: 'Source Sans Pro Light', arial;
+  font-weight: 300;
+  font-size: 24px;
+  position: absolute;
+  margin-top: 1218px;
+  margin-left: 617px;
+}
+
+.motto-white{
+  position: absolute;
+  width: 688px;
+  height: 58px;
+  color: #ffffff;
+}
+.motto-white__up{
+  font-family: 'Source Sans Pro', arial;
+  font-weight: 700;
+  font-size: 34px;
+  margin-top: 2035px;
+  margin-left: 781px;
+  position: absolute;
+}
+.motto-white__down{
+  font-family: 'Source Sans Pro Light', arial;
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 2075px;
+  margin-left: 619px;
+  position: absolute;
+}

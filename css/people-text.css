@@ -1,0 +1,61 @@
+.people-text-header{
+    width: 185px;
+    height: 20px;
+    color: #637f83;
+    font-family: 'Source Sans Pro', arial;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .people-text-header__man{
+    margin-left: 505px;
+    margin-top: 1696px;
+    position: absolute;
+  }
+  .people-text-header__woman{
+    margin-left: 1105px;
+    margin-top: 1696px;
+    position: absolute;
+  }
+  .people-text-header__dhwoman{
+    margin-left: 505px;
+    margin-top: 1828px;
+    position: absolute;
+  }
+  .people-text-header__boy{
+    margin-left: 1105px;
+    margin-top: 1828px;
+    position: absolute;
+  }
+  
+  .people-text{
+    width: 400px;
+    height: 65px;
+    color: #959494;
+    font-family: 'Source Sans Pro', arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .people-text__man{
+    margin-left: 505px;
+    margin-top: 1732px;
+    position: absolute;
+  }
+  .people-text__woman{
+    margin-left: 1107px;
+    margin-top: 1732px;
+    position: absolute;
+  }
+  .people-text__dhwoman{
+    margin-left: 505px;
+    margin-top: 1863px;
+    position: absolute;
+  }
+  .people-text__boy{
+    margin-left: 1107px;
+    margin-top: 1863px;
+    position: absolute;
+  }
+  .people-text__more{
+    color: #e4551d;
+  }

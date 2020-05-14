@@ -1,0 +1,27 @@
+.line-vertical{
+    margin-top: 750px;
+    position: absolute;
+}
+.line-vertical__left{
+    margin-left: 661px;
+  }
+.line-vertical__center{
+  margin-left: 961px;
+}
+.line-vertical__right{
+  margin-left: 1261px;
+}
+.line-horizontal-separated{
+    position: absolute;
+    margin-top: 1273px;
+    margin-left: 375px;
+  }
+.line-horizontal{
+    margin-left: 375px;
+    margin-top: 1637px;
+  }
+  .line-grey{
+    position: absolute;
+    margin-top: 2130px;
+    margin-left: 375px;
+  }
