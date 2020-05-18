@@ -1,87 +1,80 @@
-  #nav-container > nav > ul {
-    list-style-type: none;
+  @font-face {
+  font-family: SourceSansPro-Black;
+  src: url(fonts/SourceSansPro-Black.ttf);
   }
+  @font-face {
+    font-family: SourceSansPro;
+    src: url(fonts/SourceSansPro-Bold.ttf);
+    }
   
-  #nav-background {
-    position: fixed;
-    top: 0;
-    z-index: 9000;
-    width: 100%;
-    background-color: white;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  #nav-container {
+  .header__navigation {
     display: flex;
-    max-width: 1000px;
+    justify-content: space-between;
+  }
+  
+  .header{
+    max-width: 1170px;
+    max-height: 90px;
     margin: 0 auto;
     justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
   }
-  
-  #nav-header {
+
+  .site-name__wrapper {
     display: flex;
-    justify-content: space-between;
     align-items: center;
   }
 
-  #nav-logo {
+  .site-name {
     text-decoration: none;
-    width: 145px;
-    height: 24px;
+    max-width: 200px;
     color: #637f83;
-    font-family: 'Source Sans Pro Black', arial;
+    font-family: SourceSansPro-Black;
     font-size: 32px;
-    font-weight: 400;
     line-height: 26px;
   }
 
-  #nav-logo:hover {
-    color: #637f80;
-  }
-  
-  .nav-ul {
-    display: flex;
-    max-width: 700px;
-  }
-  
-  .nav-ul > li {
+  .navigation{
     display: flex;
   }
   
-  .nav-link {
+  .navigation__link-list {
+    display: flex;
+    height: 90px;
+    margin: 0;
+  }
+  
+  .navigation__link-list-item {
+    height: 90px;
+    display: flex;
+  }
+  
+  .navigation-link {
     flex-basis: auto;
     padding: 1rem 1.5rem;
     padding-top: 40px;
     padding-bottom: 40px;
-    flex: 1;
     background: #ffffff;
     
-    font-family: 'Source Sans Pro', arial;
+    font-family: SourceSansPro;
     color: #637f83;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 16px;
     text-decoration: none;
   }
-  
-  .nav-link__home{
-    flex-basis: auto;
-    padding: 1rem 1.5rem;
-    padding-top: 40px;
-    padding-bottom: 40px;
 
-    flex: 1;
-    background: #ffffff;
-
-    font-family: 'Source Sans Pro', arial;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 16px;
-    text-decoration: none;
+  .navigation-link--selected{
     color: #e4551d;
   }
 
-  .nav-link:hover {
+  .navigation-link:hover {
     background-color: #f1f1f1;
+  }
+  
+  .check-mark{
+    width: 9px;
+    height: 6px;
+    padding-top: 19px;
+    position: relative;
+    margin-right: -45px;
   }
