@@ -1,11 +1,11 @@
   @font-face {
     font-family: SourceSansPro-Black;
-    src: url(fonts/SourceSansPro-Black.ttf);
+    src: url(../font/SourceSansPro-Black.ttf);
   }
 
   @font-face {
     font-family: SourceSansPro;
-    src: url(fonts/SourceSansPro-Bold.ttf);
+    src: url(../font/SourceSansPro-Bold.ttf);
   }
 
   .header {
@@ -35,6 +35,8 @@
   .navigation {
     height: 100%;
     display: flex;
+    flex: 1;
+    justify-content: flex-end;
   }
 
   .navigation__link-list {
@@ -49,9 +51,7 @@
   }
 
   .navigation-link {
-    flex-basis: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 0 25px;
     background: #ffffff;
 
     font-family: SourceSansPro;
@@ -75,5 +75,5 @@
   }
 
   .navigation-link:hover {
-    background-color: #f1f1f1;
+    color: #e4551d;
   }
