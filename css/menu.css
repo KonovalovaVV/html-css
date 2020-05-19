@@ -4,24 +4,26 @@
   }
 
   @font-face {
-      font-family: SourceSansPro;
-      src: url(fonts/SourceSansPro-Bold.ttf);
-    }
-  
-  .header {
-    max-width: 1170px;
-    max-height: 90px;
-    margin: 0 auto;
-    justify-content: space-between;
+    font-family: SourceSansPro;
+    src: url(fonts/SourceSansPro-Bold.ttf);
   }
 
-  .header__navigation {
+  .header {
+    max-width: 1170px;
+    height: 90px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
   }
 
+  .site-name__wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
   .site-name {
-    white-space:nowrap;
+    white-space: nowrap;
     text-decoration: none;
     max-width: 200px;
     color: #637f83;
@@ -30,29 +32,28 @@
     line-height: 26px;
   }
 
-  .site-name__wrapper {
+  .navigation {
+    height: 100%;
     display: flex;
-    align-items: center;
   }
 
-  .navigation {
-    display: flex;
-  }
-  
   .navigation__link-list {
+    height: 100%;
     display: flex;
-    margin: 0;
   }
-  
+
   .navigation__link-list-item {
+    align-items: center;
+    height: 100%;
     display: flex;
   }
-  
+
   .navigation-link {
     flex-basis: auto;
-    padding: 40px 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     background: #ffffff;
-    
+
     font-family: SourceSansPro;
     color: #637f83;
     text-transform: uppercase;
@@ -66,7 +67,8 @@
   }
 
   .navigation-link--selected::before {
-    content:url(checkmark.png);
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
     position: absolute;
     margin-top: -25px;
     margin-left: 15px;
