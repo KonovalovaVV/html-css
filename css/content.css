@@ -1,0 +1,12 @@
+.content-temp {
+    background-color: #e4551d;
+    max-width: 1170px;
+    height: 1245px; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 90px;
+}

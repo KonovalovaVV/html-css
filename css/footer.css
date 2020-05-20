@@ -1,0 +1,233 @@
+@font-face {
+    font-family: SourceSansPro-Light;
+    src: url(../font/SourceSansPro-Light.ttf);
+}
+
+.footer {
+    max-width: 1170px;
+    height: 585px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 1335px;
+}
+
+.subscribe-form {
+    background-color: #637f83;
+    height: 337px;
+    width: 100%;
+}
+
+.subscribe-form__text{
+    display: flex;
+    flex-direction: column;
+    height: 143px;
+}
+
+.subsrcibe-form__text-label {
+    margin: auto;
+    margin-top: 48px;
+    white-space: nowrap;
+    color: #ffffff;
+    font-family: SourceSansPro;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.subsrcibe-form__text-descripton {
+    margin: auto;
+    margin-top: -50px;
+    white-space: nowrap;
+    color: #ffffff;
+    font-size: 24px;
+    color: #ffffff;
+    font-family: SourceSansPro-Light;
+    font-weight: light;
+}
+
+.line{
+    display: flex;
+}
+
+.line__img{
+    margin:auto;
+}
+
+.form{
+    display: flex;
+    align-items: flex-end;
+    height: 144px;
+}
+
+.form__input{
+    width: 459px;
+    height: 40px;
+    background-color: #597275;
+    border-radius: 5px;
+}
+
+.form__input--label{
+    position: absolute;
+    margin: -50px;
+    margin-left: 57px;
+    color: #ffffff;
+    font-family: SourceSansPro;
+    font-size: 18px;
+}
+
+.form__input--description{
+    position: absolute;
+    margin: -42px;
+    margin-left: 57px;
+    color: #ffffff;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form__input--label::before{
+    margin-left: -57px;
+    content: '\f0e0';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    position: absolute;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.form__sign-up-button{
+    display: flex;
+    margin-left: 11px;
+    width: 100px;
+    height: 40px;
+    background-color: #597275;
+    border-radius: 5px;
+}
+
+.form__sign-up-button--sign-up{
+    margin: auto;
+    color: #ffffff;
+    font-family: SourceSansPro-Black;
+    font-size: 18px;
+    line-height: 25.6px;
+    letter-spacing: 0.36px;
+}
+
+.form__info{
+    display: flex;
+    margin-left: 30px;
+    width: 570px;
+    height: 103px;
+    background-color: #597275;
+    border-radius: 5px;
+}
+
+.form__info-text{
+    margin: auto;
+    margin-right: 24px;
+    color: #b5c7c9;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.form__info-text::before{
+    margin-left: -87px; 
+    margin-top: 22px;
+    content: '\f099';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    position: absolute;
+    color: #ffffff;
+    font-size: 66px;
+}
+
+.form__info-text--johndoe{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.social {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 132px;
+    max-width: 1170px;
+}
+
+.social-link {
+    margin: auto;
+    text-decoration: none;
+}
+
+.social-link__label {
+    color: #637f83;
+    font-family: SourceSansPro;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.social-link__description {
+    color: #b5c7c9;
+    font-family: SourceSansPro;
+    font-size: 14px;
+}
+
+.social-link__label::before {
+    content: '\f111';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    position: absolute;
+    color: #e4551d;
+    margin-left: -90px;
+    margin-top: -21px;
+    font-size: 54pt;
+}
+
+.social-link__description--facebook::before{
+    content: '\f39e';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    position: absolute;
+    color: #ffffff;
+    margin-left: -62px;
+    margin-top: -21px;
+    font-size: 32px;
+}
+
+.social-link__description--google::before{
+    content: '\f0d5';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    position: absolute;
+    color: #ffffff;
+    margin-left: -68px;
+    margin-top: -19px;
+    font-size: 32px;
+}
+
+.social-link__description--in::before{
+    content: '\f0e1';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    position: absolute;
+    color: #ffffff;
+    margin-left: -65px;
+    margin-top: -21px;
+    font-size: 32px;
+}
+
+.author {
+    display: flex;
+    background-color: #637f83;
+    height: 115px;
+    width: 100%;
+}
+
+.author__text {
+    margin: auto;
+    white-space: nowrap;
+    height: 13px;
+    color: #ffffff;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    line-height: 24px;
+}
