@@ -1,12 +1,32 @@
 .content-temp {
     background-color: #e4551d;
     max-width: 1170px;
+    margin: 0 auto;
     height: 1245px; 
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+}
+
+.header-label{
     margin: auto;
-    margin-top: 90px;
+    max-width: 1170px;
+    color: #ffffff;
+    font-family: SourceSansPro;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.header-descripton {
+    margin: auto;
+    max-width: 1170px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: SourceSansPro-Light;
+    font-weight: light;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: #597275;
+    border-radius: 5px;
+    border: none;
 }
