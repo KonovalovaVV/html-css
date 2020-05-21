@@ -4,15 +4,14 @@
 }
 
 .footer {
-    max-width: 1170px;
+    max-width: 1920px;
     height: 585px;
-    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
-    margin-top: 1335px;
+    margin: 0 auto;
+    margin-top: 1245px;
 }
 
 .subscribe-form {
@@ -57,7 +56,9 @@
 }
 
 .form{
+    margin: auto;
     display: flex;
+    max-width: 1170px;
     align-items: flex-end;
     height: 144px;
 }
@@ -227,7 +228,7 @@
     white-space: nowrap;
     height: 13px;
     color: #ffffff;
-    font-family: SourceSansPro;
+    font-family: SourceSansPro-Light;
     font-size: 14px;
     line-height: 24px;
 }
