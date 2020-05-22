@@ -5,6 +5,12 @@
 
 .footer {
     margin: 0 auto;
+    width: 100%;
+}
+
+.footer-content {
+    margin: 0 auto;
+    max-width: 1170px;
 }
 
 .subscribe-form {
@@ -20,7 +26,7 @@
 }
 
 .separator {
-    max-width: 1170px;
+    width: 100%;
     height: 1px;
     border: none;
     color: #597275;
@@ -34,7 +40,6 @@
     padding-top: 40px;
     padding-bottom: 50px;
     margin: auto;
-    max-width: 1170px;
 }
 
 .form__section {
@@ -131,11 +136,10 @@
 }
 
 .social {
-    margin: auto;
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
-    max-width: 1170px;
+    width: 100%;
 }
 
 .social-link {
@@ -148,6 +152,33 @@
     flex-direction: column;
     padding-top: 53px;
     padding-bottom: 48px;
+}
+
+.social-link__info--facebook::before {
+    margin-left: -65px;
+    content: '\f39e';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    position: absolute;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.social-link__info--google::before {
+    margin-left: -72px;
+    content: '\f0d5';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    position: absolute;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.social-link__info--linkedin::before {
+    margin-left: -67px;
+    content: '\f0e1';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    position: absolute;
+    color: #ffffff;
+    font-size: 32px;
 }
 
 .social-link__info-label {
@@ -173,8 +204,7 @@
 .author {
     display: flex;
     background-color: #637f83;
-    height: 115px;
-    width: 100%;
+    padding: 38px;
 }
 
 .author__text {
