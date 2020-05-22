@@ -10,11 +10,14 @@
 
 .footer-content {
     margin: 0 auto;
-    max-width: 1170px;
+    width: 1170px;
+}
+
+.footer-dark {
+    background-color: #637f83;
 }
 
 .subscribe-form {
-    background-color: #637f83;
     width: 100%;
 }
 
@@ -98,14 +101,6 @@
     border: none;
 }
 
-.button-sign-up {
-    color: #ffffff;
-    font-family: SourceSansPro-Black;
-    font-size: 18px;
-    line-height: 25.6px;
-    letter-spacing: 0.36px;
-}
-
 .form__info {
     margin: auto;
     display: flex;
@@ -168,15 +163,24 @@
 }
 
 .social-link__icon {
-    font-size: 70px;
-    color: #e4551d;
-    margin-right: 20px;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.social-link__icon-wrapper {
+    width: 70px;
+    height: 70px;
+    display: flex;
     margin-top: 32px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4551d;
+    border-radius: 50%;
 }
 
 .author {
     display: flex;
-    background-color: #637f83;
     padding: 38px;
 }
 

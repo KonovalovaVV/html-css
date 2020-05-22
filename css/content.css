@@ -29,4 +29,11 @@
     background-color: #597275;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+    
+    color: #ffffff;
+    font-family: SourceSansPro-Black;
+    font-size: 18px;
+    line-height: 25.6px;
+    letter-spacing: 0.36px;
 }
