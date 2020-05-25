@@ -93,9 +93,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 62px;
-    padding-right: 44px;
-    padding-left: 44px;
+    margin:auto;
+    padding: 30px;
 }
 
 .featured-section__content-item--border {
