@@ -18,13 +18,17 @@
     flex-direction: column;
     background-image: url(../img/bg-mountain.png);
     background-repeat: no-repeat;
-    max-width: 1920px;
+    background-size: cover;
+    width: 100%;
     height: 520px;
-    margin: 0 auto;
 }
 
-.section-bg__text {
-    margin-top: 125px;
+.section-bg__content {
+    margin: auto;
+    padding: 20px;
+}
+
+.section-bg__content-text {
     display: flex;
     flex-direction: column;
 }
@@ -52,14 +56,8 @@
 }
 
 .section-bg__icon {
-    display: flex;
     margin: auto;
     margin-top: 41px;
-    width: 69px;
-    height: 69px;
-    background-color: #e4551d;
-    border:none;
-    border-radius: 50%;
 }
 
 .section-bg__icon-arrow {
