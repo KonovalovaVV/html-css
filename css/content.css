@@ -1,0 +1,39 @@
+.content-temp {
+    background-color: #e4551d;
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 1245px; 
+}
+
+.header-label{
+    margin: auto;
+    max-width: 1170px;
+    color: #ffffff;
+    font-family: SourceSansPro;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.header-descripton {
+    margin: auto;
+    max-width: 1170px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: SourceSansPro-Light;
+    font-weight: light;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: #597275;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+    color: #ffffff;
+    font-family: SourceSansPro-Black;
+    font-size: 18px;
+    line-height: 25.6px;
+    letter-spacing: 0.36px;
+}
