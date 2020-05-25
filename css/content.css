@@ -2,10 +2,10 @@
     background-color: #e4551d;
     max-width: 1170px;
     margin: 0 auto;
-    height: 1245px; 
+    height: 725px;
 }
 
-.header-label{
+.header-label {
     margin: auto;
     max-width: 1170px;
     color: #ffffff;
@@ -23,17 +23,28 @@
     font-weight: light;
 }
 
-.button{
+.button {
     width: 100px;
     height: 40px;
     background-color: #597275;
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    
+
     color: #ffffff;
     font-family: SourceSansPro-Black;
     font-size: 18px;
     line-height: 25.6px;
     letter-spacing: 0.36px;
+}
+
+.circle-button {
+    background-color: #e4551d;
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

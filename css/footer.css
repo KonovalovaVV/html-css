@@ -173,15 +173,8 @@
 }
 
 .social-link__icon-wrapper {
-    width: 70px;
-    height: 70px;
-    display: flex;
     margin-top: 32px;
     margin-right: 20px;
-    justify-content: center;
-    align-items: center;
-    background-color: #e4551d;
-    border-radius: 50%;
 }
 
 .author {
