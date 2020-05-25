@@ -1,0 +1,68 @@
+@font-face {
+    font-family: PT-Sans;
+    src: url(../font/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../font/Lato-Regular.ttf);
+}
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section-bg {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/bg-mountain.png);
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    height: 520px;
+    margin: 0 auto;
+}
+
+.section-bg__text {
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    color: #ffffff;
+    font-family: PT-Sans;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 44px;
+    text-decoration: underline;
+    letter-spacing: 3.2px;
+}
+
+.subtitle {
+    margin-top: 34px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+}
+
+.section-bg__icon {
+    display: flex;
+    margin: auto;
+    margin-top: 41px;
+    width: 69px;
+    height: 69px;
+    background-color: #e4551d;
+    border-radius: 50%;
+}
+
+.section-bg__icon-arrow {
+    margin: auto;
+    color: #ffffff;
+    font-size: 32px;
+}
