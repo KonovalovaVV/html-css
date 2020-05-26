@@ -84,7 +84,7 @@
 
 .featured-section__content {
     margin: auto;
-    max-width: 1170px;
+   width: 100%;
     display: flex;
 }
 
@@ -117,4 +117,50 @@
 
 .feature-card__button {
     margin-top: 27px;
+}
+
+.arrow-separator {
+    display: flex;
+    margin: auto;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.separator--left {
+    margin-right: 15px;
+}
+
+.separator--right {
+    margin-left: 15px;
+}
+
+.circle-button__icon {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.gallery {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+.gallery__item {
+    width: 270px;
+    height: 170px;
+    border-radius: 5px;
+}
+
+.gallery-button{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    margin: auto;
+}
+
+.section{
+    max-width: 1170px;
+    margin: auto;
 }
