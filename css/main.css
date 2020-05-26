@@ -66,7 +66,7 @@
     font-size: 32px;
 }
 
-.headline  {
+.headline {
     width: 100%;
     display: flex;
 }
@@ -92,29 +92,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:auto;
+    margin: auto;
     padding: 40px 30px;
     border-right: 1px solid #b5c7c9;
 }
 
-section.feature-card:last-of-type {
+.feature-card:last-of-type {
     border-right: none;
 }
 
-.feature-card-icon {
+.feature-card__icon {
     color: #e4551d;
     font-size: 68px;
 }
 
-.feature-card-lead {
+.feature-card__lead {
     margin-top: 35px;
 }
 
-.feature-card-description {
+.feature-card__description {
     text-align: center;
     margin-top: 22px;
 }
 
-.feature-card-button {
+.feature-card__button {
     margin-top: 27px;
 }
