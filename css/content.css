@@ -65,17 +65,18 @@
     align-items: center;
 }
 
-.circle-button--small{
+.circle-button--small {
     width: 20px;
     height: 20px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.orange-button{
+.orange-button {
     background-color: #e4551d;
     width: 150px;
     border-radius: 5px;
+    border:none;
 
     padding-top: 10px;
     padding-bottom: 10px;
@@ -87,6 +88,7 @@
     letter-spacing: 0.02em;
     color: #ffffff;
 }
+
 .lead {
     color: #637f83;
     font-family: SourceSansPro;
