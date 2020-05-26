@@ -2,7 +2,7 @@
     background-color: #e4551d;
     max-width: 1170px;
     margin: 0 auto;
-    height: 725px;
+    height: 864px;
 }
 
 .header-label {
@@ -14,6 +14,14 @@
     font-weight: bold;
 }
 
+.header-label--light {
+    color: #ffffff;
+}
+
+.header-label--dark {
+    color: #637f83;
+}
+
 .header-descripton {
     margin: auto;
     max-width: 1170px;
@@ -21,6 +29,14 @@
     font-size: 24px;
     font-family: SourceSansPro-Light;
     font-weight: light;
+}
+
+.header-descripton--light {
+    color: #ffffff;
+}
+
+.header-descripton--dark {
+    color: #637f83;
 }
 
 .button {
@@ -47,4 +63,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.lead {
+    color: #637f83;
+    font-family: SourceSansPro;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.description {
+    color: #959494;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    line-height: 20px;
 }

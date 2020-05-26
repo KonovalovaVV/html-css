@@ -65,3 +65,56 @@
     color: #ffffff;
     font-size: 32px;
 }
+
+.headline {
+    width: 100%;
+    display: flex;
+}
+
+.label-section {
+    margin: auto;
+    text-align: center;
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
+
+.featured-section {
+    background-color: #f6f6f6;
+}
+
+.featured-section__content {
+    margin: auto;
+    max-width: 1170px;
+    display: flex;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 40px 30px;
+    border-right: 1px solid #b5c7c9;
+}
+
+.feature-card:last-of-type {
+    border-right: none;
+}
+
+.feature-card__icon {
+    color: #e4551d;
+    font-size: 68px;
+}
+
+.feature-card__lead {
+    margin-top: 35px;
+}
+
+.feature-card__description {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.feature-card__button {
+    margin-top: 27px;
+}
