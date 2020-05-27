@@ -5,24 +5,21 @@
 
 .footer {
     margin: 0 auto;
-    width: 100%;
 }
 
 .footer-content {
     margin: 0 auto;
-    padding: 0 20px;
     max-width: 1170px;
+    padding: 0px 20px;
 }
 
 .footer-section {
-    width: 100%;
+    width: 100%;    
     margin: 0 auto;
-    padding-right: 60px;
 }
 
 .footer-section--dark {
     background-color: #637f83;
-    width: 100%;
 }
 
 .subscribe-form {
@@ -192,4 +189,22 @@
     font-family: SourceSansPro-Light;
     font-size: 14px;
     line-height: 24px;
+}
+
+@media (min-width: 1170px) {
+    .form__section {
+        padding: 0px;
+    }
+
+    .form__section-input {
+        padding: 0px;
+    }
+
+    .footer-section {
+        padding: 0px;
+    }
+
+    .footer-section {
+        padding: 0px;
+    }
 }

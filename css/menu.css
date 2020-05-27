@@ -78,3 +78,9 @@
   .navigation-link:hover {
     color: #e4551d;
   }
+  
+  @media (min-width: 1170px) {
+    .header {
+      padding-left: 0px;
+    }
+  }
