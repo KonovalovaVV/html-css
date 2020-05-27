@@ -10,16 +10,19 @@
 
 .footer-content {
     margin: 0 auto;
-    width: 1170px;
+    padding: 0 20px;
+    max-width: 1170px;
 }
 
 .footer-section {
     width: 100%;
     margin: 0 auto;
+    padding-right: 60px;
 }
 
 .footer-section--dark {
     background-color: #637f83;
+    width: 100%;
 }
 
 .subscribe-form {
@@ -53,12 +56,13 @@
 .form__section {
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
     width: 100%;
+    padding-left: 10px;
 }
 
 .form__section-input {
     display: flex;
+    padding-right: 10px;
 }
 
 .form__section-label {
@@ -98,7 +102,7 @@
 }
 
 .form__input-input-field {
-    width: 459px;
+    width: 400px;
     height: 38px;
     margin-right: 11px;
     background-color: #597275;
@@ -109,9 +113,8 @@
 .form__info {
     margin: auto;
     display: flex;
-    padding: 22px;
+    padding: 10px;
     padding-bottom: 23px;
-    padding-right: 24px;
     background-color: #597275;
     border-radius: 5px;
 }
