@@ -113,6 +113,7 @@
 .feature-card__description {
     text-align: center;
     margin-top: 22px;
+    line-height: 20px;
 }
 
 .feature-card__button {
@@ -180,22 +181,27 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
+    width: 48%;
 }
 
 .profile__text {
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    flex: 1;
 }
 
-.profile__text-description {
+.profile__description {
     text-align: left;
     margin-top: 15px;
+    line-height: 26px;
 }
 
 .profile__image {
     padding-right: 20px;
     padding-bottom: 30px;
+    height: 100px;
+    width: 100px;
 }
 
 .more-link {
