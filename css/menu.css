@@ -11,6 +11,7 @@
   .header {
     max-width: 1170px;
     height: 90px;
+    padding-left: 20px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -76,4 +77,10 @@
 
   .navigation-link:hover {
     color: #e4551d;
+  }
+  
+  @media (min-width: 1170px) {
+    .header {
+      padding-left: 0px;
+    }
   }
