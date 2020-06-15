@@ -1,8 +1,6 @@
 @import url("reset.css");
-@import url("menu.css");
 @import url("content.css");
 @import url("footer.css");
-
 
 @font-face {
     font-family: PT-Sans;

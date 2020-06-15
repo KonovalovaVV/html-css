@@ -1,13 +1,12 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const {
-  CleanWebpackPlugin
-} = require('clean-webpack-plugin');
-
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ImageminPlugin = require('imagemin-webpack-plugin').default;
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const outputDirectory = path.join(__dirname, 'dist');
+const sourceDirectory = path.join(__dirname, 'src');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: path.join(sourceDirectory, 'index.js'),
   output: {
     filename: 'main.js',
     path: outputDirectory,
@@ -32,6 +31,14 @@ module.exports = {
         },
       },
       {
+        test: /\.s[ac]ss$/i,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+        ],
+      },
+      {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         loader: "file-loader",
         options: {
@@ -49,7 +56,13 @@ module.exports = {
       cleanOnceBeforeBuildPatterns: ['**/*']
     }),
     new HtmlWebpackPlugin({
-      template: 'src/index.html'
+      template: path.join(sourceDirectory, 'index.html')
+    }),
+    new ImageminPlugin({
+      disable: process.env.NODE_ENV !== 'production',
+      pngquant: {
+        quality: '95-100'
+      }
     })
   ]
 };

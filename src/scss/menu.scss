@@ -1,3 +1,10 @@
+    $content-width: 1170px;
+
+    @mixin flex-height {
+      height: 100%;
+      display: flex;
+    }
+
     @font-face {
       font-family: SourceSansPro-Black;
       src: url(../font/SourceSansPro-Black.ttf);
@@ -9,7 +16,7 @@
     }
 
     .header {
-      max-width: 1170px;
+      max-width: $content-width;
       height: 90px;
       padding-left: 20px;
       margin: 0 auto;
@@ -18,8 +25,7 @@
     }
 
     .site-name__wrapper {
-      height: 100%;
-      display: flex;
+      @include flex-height;
       align-items: center;
     }
 
@@ -34,8 +40,7 @@
     }
 
     .navigation {
-      height: 100%;
-      display: flex;
+      @include flex-height;
       flex: 1;
       justify-content: flex-end;
     }
@@ -47,8 +52,7 @@
 
     .navigation__link-list-item {
       align-items: center;
-      height: 100%;
-      display: flex;
+      @include flex-height;
     }
 
     .navigation-link {
@@ -67,9 +71,9 @@
       color: #e4551d;
     }
 
-    .navigation-link--selected::before {
+   .navigation-link--selected::before {
       content: '\f107';
-      font-family: FontAwesome;
+      font-family: 'Font Awesome 5 Free';
       position: absolute;
       margin-top: -25px;
       margin-left: 15px;
@@ -79,7 +83,7 @@
       color: #e4551d;
     }
 
-    @media (min-width: 1170px) {
+    @media (min-width: $content-width) {
       .header {
         padding-left: 0px;
       }

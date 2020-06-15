@@ -1,7 +1,4 @@
  import './css/main.css';
+ import './scss/menu.scss';
 
- import '@fortawesome/fontawesome-free/js/solid';
- import '@fortawesome/fontawesome-free/js/regular';
- import '@fortawesome/fontawesome-free/js/brands';
- import '@fortawesome/fontawesome-free/js/fontawesome';
-
+ import '@fortawesome/fontawesome-free/css/all.min.css';
