@@ -1,7 +1,11 @@
-.header-label {
+@mixin header-text {
+    max-width: $content-width;
     margin: auto;
-    max-width: 1170px;
     color: #ffffff;
+}
+
+.header-label {
+    @include header-text();
     font-family: SourceSansPro;
     font-size: 34px;
     font-weight: bold;
@@ -12,13 +16,11 @@
 }
 
 .header-label--dark {
-    color: #637f83;
+    color: $grey-color;
 }
 
 .header-descripton {
-    margin: auto;
-    max-width: 1170px;
-    color: #ffffff;
+    @include header-text();
     font-size: 24px;
     font-family: SourceSansPro-Light;
     font-weight: light;
@@ -29,13 +31,13 @@
 }
 
 .header-descripton--dark {
-    color: #637f83;
+    color: $grey-color;
 }
 
 .button {
     width: 100px;
     height: 40px;
-    background-color: #597275;
+    background-color: $grey-color;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -48,7 +50,7 @@
 }
 
 .circle-button {
-    background-color: #e4551d;
+    background-color: $orange-color;
     border: none;
     border-radius: 50%;
     display: flex;
@@ -66,7 +68,7 @@
 }
 
 .orange-button {
-    background-color: #e4551d;
+    background-color: $orange-color;
     width: 150px;
     border-radius: 5px;
     border: none;
