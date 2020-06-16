@@ -19,18 +19,18 @@
     color: $grey-color;
 }
 
-.header-descripton {
+.header-description {
     @include header-text();
     font-size: 24px;
     font-family: SourceSansPro-Light;
     font-weight: light;
 }
 
-.header-descripton--light {
+.header-description--light {
     color: #ffffff;
 }
 
-.header-descripton--dark {
+.header-description--dark {
     color: $grey-color;
 }
 

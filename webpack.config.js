@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
 const outputDirectory = path.join(__dirname, 'dist');
 const sourceDirectory = path.join(__dirname, 'src');
 
